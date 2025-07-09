@@ -1,0 +1,32 @@
+   :root{
+   --sec-color:linear-gradient(135deg, 
+    #ffffff 0%, 
+    rgba(142, 140, 140, 0.8) 50%, 
+    #343131 100%),
+    radial-gradient(circle at center, 
+    #494646 0%, 
+    rgba(255,255,255,0) 70%);
+   }
+   
+   .letters-loading{
+            color: black!important;
+        }
+        .mobile-logo img{
+            height: 30px!important;
+        }
+        .header-logo img{
+            height: 40px;
+
+        }
+      
+        .hero-title2{
+              background: var(--sec-color)!important;
+  -webkit-background-clip: text!important; /* For text fill effect (if logo is text) */
+  background-clip: text!important;
+  color: transparent!important; 
+        }
+
+        .popular-popup-image img{
+            height: 300px!important;
+        }
+  
