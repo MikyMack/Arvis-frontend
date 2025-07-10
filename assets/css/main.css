@@ -29,4 +29,52 @@
         .popular-popup-image img{
             height: 300px!important;
         }
-  
+        .gallery-img img{
+            height: 450px!important;
+
+        }
+  .google-logo{
+    height: 70px!important;
+
+  }
+  .testi-cards{
+    min-height: 300px!important;
+  }
+  .blog-main-title a{
+      display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show only 1 line */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  .ft-logo{
+    height: 20px;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  .footer-info{
+    display: flex;
+    gap: 5px;
+    
+
+    
+  }
+   .footer-info p a,.footer-info span{
+    color: white;
+   }
+  .footer-info i{
+    margin-top: 7px;
+    color: red;
+  }
+  @media(max-width:450px){
+    .explore-single-item .explore-single-slide img{
+      
+    height: 400px;
+    width: 100%;
+
+    }
+    .explore-single-item .panoramaSlide1{
+        height: 400px!important;
+        
+    }
+  }
