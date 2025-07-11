@@ -77,4 +77,21 @@
         height: 400px!important;
         
     }
+       .prop-img{
+max-height: 200px!important;
+    object-fit: cover;
+}
   }
+  @media(max-width:1200px){
+    .prop-img{
+max-height: 400px!important;
+    object-fit: cover;
+}
+  }
+  .side-logo{
+    height: 50px!important;
+  }
+.prop-img{
+    height: 550px!important;
+    object-fit: cover;
+}
