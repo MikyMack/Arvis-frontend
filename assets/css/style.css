@@ -5480,6 +5480,8 @@ a.text-theme:hover,
   width: 100%;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  height: 140px;
+  object-fit: cover;
 }
 .recent-post .media-img:after {
   content: "\f0c1";
@@ -7851,7 +7853,7 @@ ol.wp-block-rss {
   height: 2px;
   display: block;
   width: 17px;
-  background: var(--gray-color);
+  background: var(--white-color);
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -7859,6 +7861,7 @@ ol.wp-block-rss {
   border-radius: 10px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+ 
 }
 .header-button .sidemenu-bar span:last-child {
   margin-bottom: 0;
