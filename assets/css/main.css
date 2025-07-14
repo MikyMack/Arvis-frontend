@@ -175,6 +175,10 @@ width:100%!important;
 .store-sec{
   margin-top: 4rem!important;
 }
+.filter-btns{
+  margin-top:7rem;
+  width: 100%!important;
+}
 
 }
 .property-slider-img img{
@@ -187,9 +191,12 @@ width:100%!important;
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close{
   margin-top: 2rem;
 }
-
+.property-banner{
+  height: 600px;
+}
 .filter-btns{
-  margin-top: 5rem;
+  margin-top:7rem;
+  width: 90%;
 }
 @media (max-width: 375px) {
   .filter-btns{
@@ -262,7 +269,7 @@ width:100%!important;
 
         .premium-nav-link.active-premium-nav {
             color: white;
-            background-color: rgb(161, 26, 26);
+         
           
         }
 
@@ -378,6 +385,11 @@ width:100%!important;
             .scroll-top{
               bottom: 80px!important;
             }
+            .purchase-img img{
+  height: 100px!important;
+  width: auto!important;
+  object-fit: cover;
+}
         }
 
         /* Responsive adjustments within mobile range */
@@ -395,6 +407,17 @@ width:100%!important;
             .premium-nav-link {
                 padding: 8px 4px;
                 min-width: 50px;
+            }
+                      .purchase-img img{
+  height: 300px!important;
+  width: 300px;
+
+}
+         .social-icon-container {
+        position: fixed;
+  bottom: 140px!important;
+  right: 30px;
+
             }
         }
 
@@ -420,6 +443,7 @@ width:100%!important;
             .premium-desktop-message {
                 display: block;
             }
+   
        
         }
         .mob-nav-icon{
@@ -452,4 +476,8 @@ width:100%!important;
 
 .social-icon-container img:hover {
   transform: scale(1.1);
+}
+.purchase-img img{
+  height: 700px;
+  width: 700px;
 }
