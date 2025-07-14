@@ -7822,7 +7822,7 @@ ol.wp-block-rss {
   height: 48px;
   width: 48px;
   border: 0;
-  background: transparent;
+  background: black;
   border: 1px solid #999999;
   border-radius: 8px;
   display: -webkit-box;
@@ -7945,19 +7945,25 @@ ol.wp-block-rss {
   color: var(--white-color);
 }
 .header-default.header-layout1 .menu-area {
-  background-color: transparent;
+  background-color: white;
   border-bottom: 1px solid #ffffff19;
 }
 .header-default.header-layout1 .main-menu > ul > li > a {
   padding: 34px 0;
-  color: var(--white-color);
+  color: black;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+.header-default.header-layout1 .main-menu > ul > li > a:hover,
+.header-default.header-layout1 .main-menu > ul > li.active > a {
+  color: var(--theme-color);
 }
 .header-default.header-layout1
   .main-menu
   ul
   li.menu-item-has-children
   a::after {
-  color: var(--white-color);
+  color: black;
 }
 .header-default.header-layout1
   .main-menu
